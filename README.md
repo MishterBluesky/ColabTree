@@ -1,3 +1,4 @@
+**ColabTree**
 This simple pipeline made by the Rodrigues lab, uses the ColabFold MMSEQ2 and HHSUITE filtering of proteins for fast protein phylogeny determination. It makes an A3M file and a fasta file using MMSEQ2. It then translates this into a PHYLIP file and uses FASTME default settings for phylogeny determination. If you would like to only change an a3m file into a tree or label your a3m file, and do not need to search use our other pipeline "ATree" !Picture 1.png Input the amino acid sequence of your protein, and this software will make a tree of the conservation of the gene or genes. If analysing a gene cluster please untick 'protein modelling' so you dont crash the system.
 
 For publication quality analysis, we recommend you upload the nwk file created by this programme to iTOL https://itol.embl.de/upload.cgi
